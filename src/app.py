@@ -9,5 +9,6 @@ def handler(event, context):
 
 def second_handler(second_event, context):
     return json.dumps({"vars": environ.copy()})]
+
 def third_handler(second_event, context):
         return json.dumps({"vars": environ.copy()})
